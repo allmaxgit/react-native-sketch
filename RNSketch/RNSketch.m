@@ -177,7 +177,7 @@
 
 - (NSString *)drawingToString
 {
-  return [UIImageJPEGRepresentation(_image, 1) base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
+  return [UIImageJPEGRepresentation(_image, 0.4) base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
 }
 
 
